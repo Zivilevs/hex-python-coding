@@ -5,3 +5,4 @@
 3. If - elif - else
 4. Modulos and if-elif statment. Find the last digit and it is greater than 5 or not. Modulos for negative number
 5. Hexadecimal printing, without any import module.
+6. String and digit formating with .format
