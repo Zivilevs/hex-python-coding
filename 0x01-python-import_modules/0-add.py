@@ -1,15 +1,9 @@
 #!/usr/bin/python3
-# this def is used in the program and on the CLI
+# Import a simple function from a simple file
 
 
-def add(a, b):
-    return(a + b)
-
-a = 1       # a, b must be before name == main,
-b = 2       # if they are used in program later.
-
-if __name__ == 'add_0':
-    __name__.add(a, b)
-# '__main__' is name of this file, but in in this case
-# it is wanted to be specific.
-print("{} + {} = {}".format(a, b, add(a, b)))
+if __name__ == '__main__':
+    add = __import__("add_0").add  # needs to be defined
+    a = 1
+    b = 2
+    print("{} + {} = {}".format(a, b, add(a, b)))
