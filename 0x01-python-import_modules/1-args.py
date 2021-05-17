@@ -8,7 +8,8 @@ def length():
     number = len(sys.argv)
     arg = number - 1
 
-    print("{} {}:".format(arg, "argument" if arg == 0 else "arguments"))
+    print("{} {}{}".format(arg, "argument" if arg == 1 else "arguments",
+          ":" if arg > 0 else "."))
     for i in range(1, number):
         print("{}: {}".format(i, sys.argv[i]))
 
