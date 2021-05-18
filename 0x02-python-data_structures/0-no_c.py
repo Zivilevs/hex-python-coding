@@ -15,5 +15,3 @@ def no_c(my_string):
         noC_string += str(noC_list[i])
         i += 1
     return noC_string
-
-print(no_c("gcc"))
