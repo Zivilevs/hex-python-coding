@@ -4,3 +4,4 @@
 2. Write a function that returns a set of common elements in two sets.
 3. Write a function that replaces or adds key/value in a dictionary.
 4. Write a function that returns a key with the biggest integer value.
+5. Write a function that returns a list with all values multiplied by a number without using any loops (with map())
